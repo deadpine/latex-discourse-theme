@@ -1,0 +1,29 @@
+{
+  "name": "LaTex Theme",
+  "component": false,
+  "license_url": null,
+  "about_url": null,
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+  },
+  "color_schemes": {
+    "LaTex Color Scheme": {
+      "primary": "000000",
+      "secondary": "ffffff",
+      "tertiary": "0044ff",
+      "quaternary": "99aaff",
+      "header_background": "ffffff",
+      "header_primary": "333333",
+      "highlight": "ffff44",
+      "danger": "ff4422",
+      "success": "10ee44",
+      "love": "ff55ff"
+    }
+  },
+  "modifiers": {
+  },
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+}
