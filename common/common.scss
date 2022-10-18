@@ -22,19 +22,74 @@ h6 {
 // Nav
 
 .list-controls .combo-box .combo-box-header {
-    color: var(--primary-medium);
-    border: 1px solid var(--primary-low-mid);
-    height: auto;
-    border-radius: 2rem;
-    font-family: serif;
-    font-style: italic;
+  color: var(--primary);
+  border: 1px solid #d3d3d3;
+  height: auto;
+  border-radius: 2rem;
+  font-family: serif;
+  font-style: italic;
 }
 
-// Badges
+.svg-icon, .svg-icon-title {
+  height: 0.8em;
+  width: 0.8em;
+  opacity: .8;
+}
+
+.select-kit .select-kit-header {
+  padding: .4em;
+}
+.select-kit .select-kit-header:not(.btn) {
+  padding-left: 0.7em;
+}
+
+.select-kit.single-select.is-expanded .select-kit-header:not(.btn), 
+.select-kit.single-select .select-kit-header:not(.btn):focus, 
+.select-kit.single-select .select-kit-header:not(.btn):active {
+  outline: none;
+}
+
+.select-kit .select-kit-header .selected-name {
+  color: var(--primary-medium);
+}
+.select-kit .select-kit-header .caret-icon {
+  color: var(--primary-medium);
+}
+
+
+.nav-pills>li {
+  margin: 0 0.5em;
+}
+
+.nav-pills>li>a, 
+.nav-pills>li button {
+  color: var(--primary-medium);
+  font-size: var(--font-0);
+  padding: 0.25em 0 0;
+  height: 2rem;
+  font-family: "Source Serif Pro", serif;
+  text-transform: lowercase;
+}
+
+.nav-pills>li>a:hover, 
+.nav-pills>li button:hover {
+  color: var(--tertiary);
+  background-color: inherit;
+  border-bottom: 1px solid var(--quaternary);
+}
+
+.nav-pills>li a.active, 
+.nav-pills>li button.active {
+  color: inherit;
+  background-color: inherit;
+  border-bottom: 1px solid var(--primary-medium);
+}
+
+// Category Badges
 
 .badge-wrapper .badge-category .category-name {
-    font-style: italic;
-    font-family: "Source Serif Pro", serif;
+  font-style: italic;
+  font-family: "Source Serif Pro", serif;
 }
 
 
@@ -44,7 +99,7 @@ h6 {
 .topic-list .main-link a.title, 
 .latest-topic-list-item .main-link a.title {
   font-family: "Source Serif Pro", serif;
-  font-size: var(--font-up-1);
+  // font-size: var(--font-up-1);
 }
 
 .topic-list .topic-excerpt {
@@ -79,13 +134,4 @@ h6 {
 
 .heatmap-high {
   color: #FF00FF !important;
-}
-
-// Nav
-
-.nav-pills>li a.active, 
-.nav-pills>li button.active {
-    color: inherit;
-    background-color: inherit;
-    border-bottom: 2px solid var(--quaternary);
 }
