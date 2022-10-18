@@ -21,13 +21,24 @@ h6 {
 
 // Nav
 
-.list-controls .combo-box .combo-box-header {
-  color: var(--primary);
-  border: 1px solid #d3d3d3;
-  height: auto;
-  border-radius: 2rem;
-  font-family: serif;
-  font-style: italic;
+.list-controls {
+  .combo-box .combo-box-header {
+    color: var(--primary);
+    border: 1px solid #d3d3d3;
+    height: auto;
+    border-radius: 2rem;
+    font-family: "Source Serif Pro", serif;
+    font-style: italic;
+  }
+  // Scrollbar
+  .select-kit .select-kit-collection {
+    &::-webkit-scrollbar {
+      width: .4em;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: #d3d3d3;
+    }
+  }
 }
 
 .svg-icon, .svg-icon-title {
