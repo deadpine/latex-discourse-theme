@@ -1,10 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Serif+Pro:300,400,700");
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
 
-// --danger-low-mid: #ff80ff;
-// --danger-medium: #ff00ff;
-// --danger-hover: #ff0000;
-
 // Global styles
 html {
   font-family: 'Open Sans', sans-serif;
@@ -21,11 +17,21 @@ h6 {
   font-weight: 400;
 }
 
+// Header
+.d-header {
+  height: 3.5em;
+  box-shadow: 0 1px 2px -1px rgba(0, 0, 0, .2);
+}
+
 // Buttons
 .btn {
   font-size: var(--font-down-1);
   padding: 0.5em 0.8em;
   border-radius: 2rem;
+  &:focus, 
+  &:active {
+    outline: 1px solid #bfd0ff;
+  }
 }
 
 .btn.btn-default {
@@ -34,6 +40,7 @@ h6 {
   &.btn-icon-text {
     border: 1px solid var(--primary-low-mid);
   }
+  &:focus,
   &:hover, 
   &.btn-hover {
     background: white;
@@ -42,9 +49,6 @@ h6 {
     & .d-icon {
       color: var(--tertiary);
     }
-  }
-  &:focus {
-    background: transparent;
   }
   &:active, 
   &.btn-active {
@@ -116,43 +120,31 @@ h6 {
       }
     }
   }
-
-  // Delete outline on focus & active
-  .select-kit.single-select.is-expanded .select-kit-header:not(.btn), 
-  .select-kit.single-select .select-kit-header:not(.btn):focus, 
-  .select-kit.single-select .select-kit-header:not(.btn):active {
-    outline: none;
-  }
 }
 
 // Navigation buttons
 .nav-pills>li {
   margin: 0 0.5em;
-  a.active, 
-  button.active {
-    color: inherit;
-    background-color: inherit;
-    border-bottom: 1px solid var(--primary-medium);
+  a {
+    color: var(--primary-medium);
+    font-size: var(--font-0);
+    padding: 0.25em 0 0;
+    height: 2rem;
+    font-family: serif;
+    text-transform: lowercase;
+    &.active {
+      color: inherit;
+      background-color: inherit;
+      border-bottom: 1px solid var(--primary-medium);
+    }
+    // &:focus,
+    &:hover {
+      color: var(--tertiary);
+      background-color: inherit;
+      border-bottom: 1px solid var(--tertiary);
+    }
   }
 }
-
-.nav-pills>li>a, 
-.nav-pills>li button {
-  color: var(--primary-medium);
-  font-size: var(--font-0);
-  padding: 0.25em 0 0;
-  height: 2rem;
-  font-family: serif;
-  text-transform: lowercase;
-}
-
-.nav-pills>li>a:hover, 
-.nav-pills>li button:hover {
-  color: var(--tertiary);
-  background-color: inherit;
-  // border-bottom: 1px solid var(--quaternary);
-}
-
 
 // Categories / Tags
 .discourse-tags .discourse-tag,
@@ -175,7 +167,6 @@ h6 {
 
 
 // Category page
-
 .category-list {
   margin-left: 1px;
   .category-name {
@@ -204,11 +195,7 @@ h6 {
   line-height: var(--line-height-medium);
 }
 
-// Header
-.d-header {
-  height: 3.5em;
-  box-shadow: 0 1px 2px -1px rgba(0, 0, 0, .2);
-}
+
 
 // Aside content
 aside.onebox {
