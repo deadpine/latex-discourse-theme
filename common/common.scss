@@ -92,6 +92,10 @@ h6 {
       }
       &:not(.btn) {
         padding-left: 0.7em;
+        &:focus, 
+        &:active {
+          outline: 1px solid #bfd0ff;
+        }
       }
     }
     .select-kit-body {
