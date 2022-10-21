@@ -150,6 +150,21 @@ h6 {
   }
 }
 
+// Date view
+.select-kit.dropdown-select-box.period-chooser {
+  .period-chooser-header .top-date-string {
+    font-size: var(--font-down-2);
+  }
+  .period-chooser-row {
+    font-size: var(--font-0);
+    font-family: serif;
+    font-weight: normal;
+  }
+}
+#list-area .top-lists h2 {
+  margin: 0.5em 0 0.2em;
+}
+
 // Table view //
 tr, .topic-list-item {
   border-bottom: 1px solid #f0f0f0;
