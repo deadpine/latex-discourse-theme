@@ -37,6 +37,7 @@ h6 {
 .btn.btn-default {
   background: transparent;
   color: var(--primary);
+  font-size: var(--font-down-1);
   &.btn-icon-text {
     border: 1px solid var(--primary-low-mid);
   }
@@ -173,7 +174,7 @@ tr, .topic-list-item {
 thead.topic-list-header {
   padding-bottom: .5em;
   line-height: var(--line-height-small);
-  // font-size: var(--font-down-1);
+  font-size: var(--font-down-1);
   .topic-list-data {
     padding-bottom: .4em;
   }
