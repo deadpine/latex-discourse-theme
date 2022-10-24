@@ -193,16 +193,29 @@ tbody {
   }
 
 // Categories
-.badge-wrapper {
-  .category-name {
-    font-style: italic;
-    font-family: serif;
-    padding-right: 4px;
-  }
-  &.bullet {
-    margin-right: 2px;
+
+  // Bullet style 
+  // .badge-wrapper {
+  //   .category-name {
+  //     font-style: italic;
+  //     font-family: serif;
+  //     padding-right: 4px;
+  //   }
+  //   &.bullet {
+  //     margin-right: 2px;
+  //   }
+  // }
+
+// Box style
+.badge-wrapper.box {
+  padding: 1px 6px 1px 6px;
+  font-style: italic;
+  font-family: serif;
+  span.badge-category-bg {
+    border-radius: 1rem;
   }
 }
+
 // Tags
 .link-bottom-line .discourse-tag {
   font-style: italic;
