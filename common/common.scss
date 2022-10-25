@@ -213,7 +213,11 @@ tbody {
   font-style: italic;
   font-family: serif;
   span.badge-category-bg {
-    border-radius: 1rem;
+    border-radius: .2rem;
+    opacity: .6;
+  }
+  .category-name {
+        color: var(--blend-primary-secondary-5);
   }
 }
 
