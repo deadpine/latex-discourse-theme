@@ -27,7 +27,7 @@ h6 {
 .btn {
   // font-size: var(--font-down-1);
   padding: 0.5em 0.8em;
-  border-radius: 2rem;
+  border-radius: .5rem;
   &:focus, 
   &:active {
     outline: 1px solid #bfd0ff;
@@ -74,7 +74,7 @@ h6 {
       color: var(--primary);
       border: 1px solid #d3d3d3;
       height: auto;
-      border-radius: 2rem;
+      border-radius: .5rem;
       font-family: serif;
       font-style: italic;
       &:hover {
@@ -217,7 +217,7 @@ tbody {
     opacity: .6;
   }
   .category-name {
-        color: var(--blend-primary-secondary-5);
+        // color: var(--blend-primary-secondary-5);
   }
 }
 
