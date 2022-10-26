@@ -145,6 +145,11 @@ h6 {
   }
 }
 
+// Admin nav
+.admin-controls .nav-pills>li {
+  margin: 0 0.5em;
+}
+
 // Date view
 .select-kit.dropdown-select-box.period-chooser {
   .period-chooser-header .top-date-string {
