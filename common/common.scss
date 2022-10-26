@@ -25,7 +25,6 @@ h6 {
 
 // Buttons
 .btn {
-  // font-size: var(--font-down-1);
   padding: 0.5em 0.8em;
   border-radius: .5rem;
   &:focus, 
@@ -64,7 +63,6 @@ h6 {
 .svg-icon-title {
   height: 0.8em;
   width: 0.8em;
-  // opacity: .8;
 }
 
 // Filters
@@ -108,11 +106,6 @@ h6 {
   .select-kit-row[data-value="no-categories"] {
     color: var(--primary);
     font-weight: 400;
-    // font-size: var(--font-down-1);
-  }
-  .discourse-tag,
-  .filter-input {
-    // font-size: var(--font-down-1);
   }
   // Scrollbar
   .select-kit-collection {
@@ -124,7 +117,6 @@ h6 {
   .is-loading, 
   .results-count {
     background: transparent;
-    // font-size: var(--font-down-1);
   }
 }
 
@@ -194,19 +186,6 @@ tbody {
   }
 
 // Categories
-
-  // Bullet style 
-  // .badge-wrapper {
-  //   .category-name {
-  //     font-style: italic;
-  //     font-family: serif;
-  //     padding-right: 4px;
-  //   }
-  //   &.bullet {
-  //     margin-right: 2px;
-  //   }
-  // }
-
 // Box style
 .badge-wrapper.box {
   padding: 1px 6px 1px 6px;
@@ -216,19 +195,15 @@ tbody {
     border-radius: .2rem;
     opacity: .6;
   }
-  .category-name {
-        // color: var(--blend-primary-secondary-5);
-  }
+  // .category-name {
+  //   color: var(--blend-primary-secondary-5);
+  // }
 }
 
 // Tags
 .link-bottom-line .discourse-tag {
   font-style: italic;
   font-family: serif;
-  // &:first-child:before {
-  //   content: "- ";
-  //   margin-right: 4px;
-  // }
 }
 
 // Category view //
