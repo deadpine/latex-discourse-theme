@@ -21,6 +21,7 @@ h6 {
 .d-header {
   height: 3.5em;
   box-shadow: 0 1px 2px -1px rgba(0, 0, 0, .2);
+  background: transparent;
 }
 
 // Buttons
@@ -70,7 +71,7 @@ h6 {
   .combo-box {
     .combo-box-header {
       color: var(--primary);
-      border: 1px solid #d3d3d3;
+      border: 1px solid var(--primary-200);
       height: auto;
       border-radius: .5rem;
       font-family: "Source Serif Pro", serif;
@@ -110,7 +111,7 @@ h6 {
   // Scrollbar
   .select-kit-collection {
     &::-webkit-scrollbar { width: .4em; }
-    &::-webkit-scrollbar-thumb { background-color: #d3d3d3; }
+    &::-webkit-scrollbar-thumb { background-color: var(--primary-200); }
   }
   // Search - Fix background and font size
   .no-content, 
@@ -245,7 +246,7 @@ tbody {
 
 // Aside content
 aside.onebox {
-  border: 1px solid #d3d3d3;
+  border: 1px solid var(--primary-200);
   border-radius: 0.7em;
 }
 
