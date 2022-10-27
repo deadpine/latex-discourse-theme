@@ -134,7 +134,7 @@ h6 {
     padding: 0.25em 0 0;
     height: 2rem;
     font-family: "Source Serif Pro", serif;
-    text-transform: lowercase;
+    // text-transform: lowercase;
     &.active {
       color: inherit;
       background-color: inherit;
@@ -264,4 +264,17 @@ aside.onebox {
 // Heatmap high
 .heatmap-high {
   color: var(--tertiary) !important;
+}
+
+// NEW CHANGES - WIP
+// Add shadows to categories
+
+.topic-list-item, tr {
+    border-bottom: 1px solid var(--primary-low);
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 0.5em;
+    display: block;
+    padding-left: 0;
+    box-shadow: 0 1px 16px -1px rgb(0 0 0 / 20%);
 }
