@@ -285,4 +285,15 @@ thead {
 }
 
 
-// Add shadow to latest column
+// table bottom message
+.topic-list-bottom .footer-message {
+  display: flex;
+  justify-content: center;
+  h3 {
+    font-size: var(--font-0);
+    color: var(--primary-600);
+    .top-title-buttons {
+      justify-content: center;
+    }
+  }
+}
