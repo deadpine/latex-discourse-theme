@@ -266,6 +266,14 @@ aside.onebox {
   color: var(--tertiary) !important;
 }
 
+// Admin inputs
+.controls {
+  .select-kit.combo-box .select-kit-header {
+    border-color: var(--primary-low-mid);
+    border-radius: .25em;
+  }
+}
+
 // NEW CHANGES - WIP
 // Add shadows to categories
 // FIX view in other tables
