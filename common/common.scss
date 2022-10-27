@@ -124,6 +124,11 @@ h6 {
   }
 }
 
+// highlight color in search
+.select-kit .select-kit-row.is-selected {
+  background: var(--highlight-low-or-medium);
+}
+
 // Navigation buttons
 .nav-pills>li {  
   margin: 0;
