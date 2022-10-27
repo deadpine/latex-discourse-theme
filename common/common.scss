@@ -39,7 +39,7 @@ h6 {
   color: var(--primary);
   font-size: var(--font-down-1);
   &.btn-icon-text {
-    border: 1px solid var(--primary-low-mid);
+    border: 1px solid var(--primary-low-mid-or-secondary-high);
   }
   &:focus,
   &:hover, 
@@ -145,9 +145,8 @@ h6 {
   }
 }
 
-// Admin nav
-.admin-controls .nav-pills>li {
-  margin: 0 0.5em;
+.user-theme-creator .user-theme-list ul li a {
+  color: var(--primary);
 }
 
 // Date view
@@ -213,6 +212,13 @@ tbody {
     color: var(--primary-medium);
     line-height: var(--line-height-medium);
   }
+}
+
+
+.topic-list-item.visited .topic-list-data a.title:not(.badge-notification), 
+.latest-topic-list-item.visited a.title:not(.badge-notification), 
+.category-topic-link.visited a.title:not(.badge-notification) {
+    color: var(--primary-very-high);
 }
 
 // Categories | Box style
