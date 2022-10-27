@@ -268,7 +268,11 @@ aside.onebox {
 
 // NEW CHANGES - WIP
 // Add shadows to categories
-
+// FIX view in other tables
+.category-list {
+thead {
+    display: none;
+}
 .topic-list-item, tr {
     border-bottom: 1px solid var(--primary-low);
     border-radius: .5em;
@@ -278,3 +282,7 @@ aside.onebox {
     padding-left: 0;
     box-shadow: 0 1px 16px -1px #00000033;
 }
+}
+
+
+// Add shadow to latest column
