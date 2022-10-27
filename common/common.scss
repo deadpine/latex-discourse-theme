@@ -271,10 +271,10 @@ aside.onebox {
 
 .topic-list-item, tr {
     border-bottom: 1px solid var(--primary-low);
-    border-radius: 1rem;
-    margin: 1rem;
+    border-radius: .5em;
+    margin: 1rem 0;
     padding: 0.5em;
     display: block;
     padding-left: 0;
-    box-shadow: 0 1px 16px -1px rgb(0 0 0 / 20%);
+    box-shadow: 0 1px 16px 0px rgba(0, 0, 0, .2);
 }
