@@ -282,21 +282,67 @@ aside.onebox {
 // NEW CHANGES - WIP
 // Add shadows to categories
 // FIX view in other tables
-.category-list {
-thead {
-    display: none;
-}
-.topic-list-item, tr {
-    border-bottom: 1px solid var(--primary-low);
-    border-radius: .5em;
-    margin: 1rem 0;
-    padding: 0.5em;
-    display: block;
-    padding-left: 0;
-    box-shadow: 0 1px 16px -1px #00000033;
-}
+.categories-and-latest .column {
+  padding: 1em 0;
+  .category-list {
+    tbody {
+      border-top: none;
+    }
+    thead {
+      display: none;
+    }
+    td,
+    tr {
+      border-bottom: none;
+      border-radius: .4em;
+      overflow: hidden;
+      margin-bottom: 0.7em;
+      box-shadow: -1px 2px 10px var(--primary-200);
+      display: flex;
+      justify-content: space-between;
+      padding: 1em;
+    }
+    td:first-of-type {
+      padding-left: 0.8em;
+    }
+    .subcategories .badge-wrapper {
+      margin: 0;
+    }
+  }
+  .latest-topic-list {
+    box-shadow: 0 2px 12px var(--primary-200);
+    border-radius: 0.4em;
+    overflow: hidden;
+    .table-heading {
+      border-bottom: none;
+      opacity: .8;
+      padding: 1em;
+      background: var(--primary-50);
+      text-transform: uppercase;
+      font-size: var(--font-down-2);
+      font-weight: 500;
+    }
+  }
 }
 
+.latest-topic-list .no-topics, 
+.latest-topic-list .more-topics, 
+.top-topic-list .no-topics, 
+.top-topic-list .more-topics {
+    display: flex;
+    justify-content: center;
+    margin: 0.5em 0;
+  a {
+    background: none;
+  }
+}
+
+@media (min-width: 700px) {
+  .categories-and-latest div.column.categories, 
+  .categories-and-top div.column.categories {
+    margin-right: 1em;
+  }
+}
 
 // table bottom message
 .topic-list-bottom .footer-message {
