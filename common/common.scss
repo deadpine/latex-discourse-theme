@@ -224,16 +224,11 @@ tbody {
 // Categories | Box style
 .badge-wrapper.box {
   padding: 1px 6px 1px 6px;
-  font-style: italic;
-  font-family: "Source Serif Pro", serif;
+  // font-style: italic;
+  // font-family: "Source Serif Pro", serif;
   span.badge-category-bg {
     border-radius: .2rem;
-    // opacity: .6;
-    // Make this change for all categories , including the category view
   }
-  // .category-name {
-  //   color: var(--blend-primary-secondary-5);
-  // }
 }
 
 // Tags
