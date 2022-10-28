@@ -198,7 +198,8 @@ tbody {
   border-top: none;
 }
 .topic-list {
-  box-shadow: 0 6px 16px var(--primary-200);
+  // box-shadow: 0 6px 16px var(--primary-200);
+  box-shadow: 0 6px 16px #0000001f;
   border-radius: 0.5rem;
   margin: 0.6em 0;
   .topic-list-data {
