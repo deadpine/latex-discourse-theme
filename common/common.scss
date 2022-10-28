@@ -170,6 +170,9 @@ h6 {
 // Table view //
 tr, .topic-list-item {
   border-bottom: 1px solid var(--primary-100);
+  &:last-of-type {
+    border-bottom: none;
+  }
 }
 thead.topic-list-header {
   line-height: 3;
