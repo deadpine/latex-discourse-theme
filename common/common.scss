@@ -139,13 +139,7 @@ h6 {
     padding: 0.25em 0 0;
     height: 2rem;
     font-family: "Source Serif Pro", serif;
-    // text-transform: lowercase;
-    &.active {
-      color: inherit;
-      background-color: inherit;
-      border-bottom: 1px solid var(--primary-medium);
-    }
-    // &:focus,
+    &.active,
     &:hover {
       color: var(--tertiary);
       background-color: inherit;
