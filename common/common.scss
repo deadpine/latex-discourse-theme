@@ -313,6 +313,9 @@ aside.onebox {
     }
     .latest-topic-list-item {
       border-bottom: 1px solid var(--primary-100);
+      .main-link a.title {
+        font-family: "Source Serif Pro", serif;
+      }
     }
   }
 }
