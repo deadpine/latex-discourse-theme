@@ -270,8 +270,6 @@ aside.onebox {
   }
 }
 
-// NEW CHANGES - WIP
-// Add shadows to categories
 // FIX view in other tables
 .categories-and-latest .column {
   padding: 1em 0;
@@ -282,7 +280,6 @@ aside.onebox {
     thead {
       display: none;
     }
-    td,
     tr {
       border-bottom: none;
       border-radius: .4em;
@@ -291,10 +288,12 @@ aside.onebox {
       box-shadow: -1px 2px 10px var(--primary-200);
       display: flex;
       justify-content: space-between;
-      padding: 1em;
     }
-    td:first-of-type {
-      padding-left: 0.8em;
+    .category {
+      padding-left: 1em;
+    }
+    .topics {
+      padding-right: 1em;
     }
     .subcategories .badge-wrapper {
       margin: 0;
