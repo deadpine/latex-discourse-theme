@@ -338,7 +338,7 @@ aside.onebox {
   }
 }
 
-// table bottom message
+// Table bottom messages
 .topic-list-bottom .footer-message {
   display: flex;
   justify-content: center;
@@ -348,5 +348,14 @@ aside.onebox {
     .top-title-buttons {
       justify-content: center;
     }
+  }
+}
+.suggested-topics-message {
+  display: flex;
+  justify-content: center;
+  font-size: var(--font-0);
+  color: var(--primary-600);
+  a {
+    margin: 0 .4rem;
   }
 }
