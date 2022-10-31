@@ -221,20 +221,19 @@ tbody {
   }
 }
 
-// Categories | Box style
+// Categories and Tags | Box style
 .badge-wrapper.box {
-  padding: 1px 6px 1px 6px;
-  // font-style: italic;
-  // font-family: "Source Serif Pro", serif;
+  padding: 1px 6px;
   span.badge-category-bg {
     border-radius: .2rem;
   }
 }
-
-// Tags
-.link-bottom-line .discourse-tag {
+.link-bottom-line .discourse-tag.box{
+  background-color: var(--primary-100);
+  color: var(--primary-medium);
+  padding: 1px 6px;
   font-style: italic;
-  font-family: "Source Serif Pro", serif;
+  border-radius: 0.2rem;
 }
 
 // Category view //
