@@ -221,13 +221,6 @@ tbody {
   }
 }
 
-
-.topic-list-item.visited .topic-list-data a.title:not(.badge-notification), 
-.latest-topic-list-item.visited a.title:not(.badge-notification), 
-.category-topic-link.visited a.title:not(.badge-notification) {
-  color: var(--primary-very-high);
-}
-
 // Categories | Box style
 .badge-wrapper.box {
   padding: 1px 6px 1px 6px;
