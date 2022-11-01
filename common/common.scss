@@ -3,7 +3,7 @@
 
 // Global styles
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
   font-size: 15px;
 }
 
@@ -15,6 +15,13 @@ h5,
 h6 {
   font-family: "Source Serif Pro", serif;
   font-weight: 400;
+}
+
+// Paragraphs
+.topic-body .regular p,
+.topic-body .regular li {
+  line-height: 1.6em;
+  width: 90%;
 }
 
 // Header
@@ -224,6 +231,7 @@ tbody {
 // Categories and Tags | Box style
 .badge-wrapper.box {
   padding: 1px 6px;
+  font-family: 'Open Sans', -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
   span.badge-category-bg {
     border-radius: .2rem;
   }
