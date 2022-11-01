@@ -262,6 +262,9 @@ tbody {
 aside.onebox {
   border: 1px solid var(--primary-200);
   border-radius: 0.7em;
+  p {
+    line-height: var(--line-height-large) !important;
+  }
 }
 
 // Heatmap high
