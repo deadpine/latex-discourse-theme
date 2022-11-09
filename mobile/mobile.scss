@@ -1,0 +1,10 @@
+
+.list-controls .nav-pills>li {
+  border: 1px solid var(--primary-200);
+  border-radius: .5rem;
+  padding: 0.25em 1em;
+  a {
+    padding: 0;
+    font-style: italic;
+  }
+}
