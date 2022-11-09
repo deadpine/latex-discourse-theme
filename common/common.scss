@@ -34,6 +34,9 @@ h6 {
     color: var(--header_primary-medium);
   }
 }
+.header-buttons .btn-primary .d-icon {
+  color: var(--secondary);
+}
 
 // Buttons
 .btn {
