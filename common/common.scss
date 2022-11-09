@@ -27,8 +27,10 @@ h6 {
 // Header
 .d-header {
   height: 3.5em;
-  box-shadow: 0 1px 2px -1px rgba(0, 0, 0, .2);
+  box-shadow: none;
   background: var(--secondary);
+  border-bottom: 1px solid var(--primary-100);
+  }
   .d-icon {
     color: var(--header_primary-medium);
   }
