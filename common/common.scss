@@ -304,14 +304,14 @@ aside.onebox {
     border-width: 1px;
     border-color: var(--primary-50);
     padding: 1.5em;
-  }
-  .categories-list .category h3 {
-    text-align: left;
-    margin-bottom: 1em;
-  }
-  .description {
-    text-align: left;
-    font-size: var(--font-down-1);
+    .category-box-heading h3 {
+      text-align: left;
+      margin-bottom: 1em;
+    }
+    .description {
+      text-align: left;
+      font-size: var(--font-down-1);
+    }
   }
 } 
 
