@@ -290,28 +290,6 @@ aside.onebox {
 }
 
 // Category boxes 
-// op 1
-// .category-boxes {
-//   .category-box {
-//     width: 31.33333%;
-//     margin: 0 0.5% 1em 0.5%;
-//     border-radius: .4em;
-//     overflow: hidden;
-//     box-shadow: 0px 2px 8px #0000001f;
-//   }
-//   .category-box-inner {
-//     border-width: 1px;
-//     border-color: var(--primary-50);
-//   }
-//   h3 {
-//     text-align: left;
-//   }
-//   .description {
-//     text-align: left;
-//     font-size: var(--font-down-1);
-//   }
-// } 
-// op 2
 .category-boxes {
   .category-box {
     width: calc(33% - 1em);
@@ -319,6 +297,8 @@ aside.onebox {
     border-radius: 0.5em;
     overflow: hidden;
     box-shadow: 0px 2px 8px #0000001f;
+    border-left-width: 0;
+    border-top-width: 6px;
   }
   .category-box-inner {
     border-width: 1px;
