@@ -304,14 +304,27 @@ aside.onebox {
     border-width: 1px;
     border-color: var(--primary-50);
     padding: 1.5em;
-    .category-box-heading h3 {
-      text-align: left;
-      margin-bottom: 1em;
+    .category-details {
+      display: flex;
+      flex-direction: column;
+      height: -webkit-fill-available;
+      .category-box-heading h3 {
+        text-align: left;
+        margin-bottom: 1em;
+      }
+      .description {
+        text-align: left;
+        font-size: var(--font-down-1);
+        flex: 3;
+      }
+      .subcategories .subcategory {
+        margin-bottom: 0;
+        .subcategory-image-placeholder {
+          margin-right: 0;
+        }
+      }
     }
-    .description {
-      text-align: left;
-      font-size: var(--font-down-1);
-    }
+    
   }
 } 
 
