@@ -296,7 +296,7 @@ aside.onebox {
     margin: 0 0.5em 1.25em 0.5em;
     border-radius: 0.5em;
     overflow: hidden;
-    box-shadow: 0px 2px 8px #0000001f;
+    box-shadow: 0px 2px 4px #4a4d522b;
     border-left-width: 0;
     border-top-width: 6px;
   }
@@ -304,9 +304,11 @@ aside.onebox {
     border-width: 1px;
     border-color: var(--primary-50);
     padding: 1.5em;
+    border-radius: 0.5em;
     .category-details {
       display: flex;
       flex-direction: column;
+      flex: 3;
       height: -webkit-fill-available;
       .category-box-heading h3 {
         text-align: left;
@@ -315,6 +317,7 @@ aside.onebox {
       .description {
         text-align: left;
         font-size: var(--font-down-1);
+        color: var(--primary-500);
         flex: 3;
       }
       .subcategories .subcategory {
