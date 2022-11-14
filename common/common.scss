@@ -183,7 +183,7 @@ tr, .topic-list-item {
   border-bottom: 1px solid var(--primary-100);
   // Visited topics
   &.visited {
-    background: rgba(148, 151, 158, .05);
+    background: rgba(125, 129, 136, .06);
     border-bottom: 1px solid var(--primary-50);
     opacity: .8;
   }
