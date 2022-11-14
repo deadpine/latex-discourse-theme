@@ -8,3 +8,21 @@
     font-style: italic;
   }
 }
+
+.category-list-item {
+  margin: .25em 0 .75em;
+  padding: 0.5em;
+  border-right: 1px solid var(--primary-low) !important;
+  .category-description {
+    display: block;
+  }
+  tr.category-topic-link {
+    display: none;
+  }
+  .badge-category-parent-bg {
+    border-radius: 0.2rem;
+  }
+  footer {
+    display: none;
+  }
+}
