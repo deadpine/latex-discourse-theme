@@ -165,9 +165,22 @@ h6 {
 
 // Date view
 .select-kit.dropdown-select-box.period-chooser {
-  .period-chooser-header .top-date-string {
-    font-size: var(--font-down-2);
-  }
+  .period-chooser-header {
+    .date-section {
+      font-size: var(--font-down-1);
+      margin-right: 8px;
+    }
+    .top-date-string {
+      font-size: var(--font-down-3);
+      text-transform: capitalize;
+    }
+    .d-icon {
+      font-size: var(--font-up-1);
+      padding-left: 0;
+      color: var(--primary-900);
+      margin-bottom: 0.1em;
+    }
+  } 
   .period-chooser-row {
     font-size: var(--font-0);
     font-family: "Source Serif Pro", serif;
@@ -175,7 +188,7 @@ h6 {
   }
 }
 #list-area .top-lists h2 {
-  margin: 0.5em 0 0.2em;
+  margin: 0.25em 0;
 }
 
 // Table view //
