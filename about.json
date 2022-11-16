@@ -10,7 +10,7 @@
   "assets": {
   },
   "color_schemes": {
-    "LaTex Dark": {
+    "LaTeX Dark": {
       "primary": "e4e5e7",
       "secondary": "18191b",
       "tertiary": "99aaff",
@@ -22,7 +22,7 @@
       "success": "00FF7F",
       "love": "ff55ff"
     },
-    "LaTex Light": {
+    "LaTeX Light": {
       "primary": "0A0A0B",
       "secondary": "ffffff",
       "tertiary": "0044ff",
