@@ -466,8 +466,7 @@ aside.onebox {
     .featured-topic {
       justify-content: flex-start;
       border: solid 1px var(--primary-200);
-      border-top: solid 2px var(--primary-800);
-      // border-radius: 0 0 1em 0;
+      border-top: solid 4px #94979E;
       padding: 1.5em 1em;
       width: 30%;
       .featured-topic-image {
@@ -487,7 +486,6 @@ aside.onebox {
           content: "📌 Featured";
           display: block;
           margin-bottom: 1.2em;
-          font-size: var(--font-down-1);
           color: var(--primary-900);
           font-weight: 600;
         }
