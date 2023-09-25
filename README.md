@@ -1,13 +1,11 @@
-# LaTex Discourse theme
-
-A custom Discourse theme inspired by LaTeX formatting.
-
 > [!NOTE]
 > This theme was created for the [Flashbots Forum](https://collective.flashbots.net/). 
 > This repo is now [maintained on the Flashbots' Github](https://github.com/flashbots/flashbots-forum-theme).
 
-### Installing the theme:
+# LaTex Discourse theme
+A custom Discourse theme inspired by LaTeX formatting.
 
+### Installing the theme:
 On your Discourse site:
 
 1. Head to **Admin → Customize → Themes**.
