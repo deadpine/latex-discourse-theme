@@ -498,6 +498,15 @@ aside.onebox {
   }
 }
 
+// Footer
+footer {
+  text-align: center;
+  font-family: "Source Serif Pro", serif;
+  font-weight: 400;
+  font-size: var(--font-0);
+  color: var(--primary-600);
+}
+
 @media screen and (min-width: 451px) {
   .featured-topic-wrapper .featured-topics .featured-topic {
     margin: 0;
