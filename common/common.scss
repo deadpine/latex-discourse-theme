@@ -9,6 +9,10 @@ html {
   font-size: 15px;
 }
 
+body {
+  background: var(--primary-50);
+}
+
 h1,
 h2,
 h3,
@@ -212,7 +216,7 @@ thead.topic-list-header {
   .topic-list-data {
     opacity: .8;
     padding: 0.5em;
-    background: var(--primary-50);
+    // background: var(--primary-50);
     text-transform: uppercase;
     font-size: var(--font-down-2);
     font-weight: 500;
@@ -425,6 +429,10 @@ aside.onebox {
 }
 
 // Table bottom messages
+.more-topics__container {
+  max-width: 100%;
+  padding-bottom: 0;
+}
 .topic-list-bottom .footer-message {
   display: flex;
   justify-content: center;
