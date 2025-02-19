@@ -202,9 +202,7 @@ tr, .topic-list-item {
   border-bottom: 1px solid var(--primary-100);
   // background: rgba(255, 255, 255, .03); (custom background)
   &.visited {
-    // background: rgba(24, 25, 27, .03); (custom background)
-    // background: var(--primary-50);
-    background: rgba(39, 41, 44, .4); 
+    background: rgba(146, 152, 160, .09);
     border-bottom: 1px solid var(--primary-50);
     opacity: .7;
   }
