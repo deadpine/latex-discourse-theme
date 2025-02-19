@@ -1,0 +1,29 @@
+// Hide banners without content
+div.tag-banner-container:has(h1:first-child + p:last-child:empty) {
+  display: none;
+}
+
+// Hide tag name in banner
+div.tag-title-contents > h1:first-child {
+  display: none;
+}
+
+// Banner basic style
+div.tag-title-header {
+  border-radius: 1rem;
+  
+  & > div.tag-title-contents {
+    padding: 1em 0;
+  }
+
+  p {
+
+    a {
+      font-weight: bold;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
