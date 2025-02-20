@@ -242,6 +242,7 @@ thead.topic-list-header {
 tbody {
   border-top: none;
 }
+
 .topic-list {
   // box-shadow: 0 6px 16px #0000001f;
   // border-radius: 0.5rem;
@@ -528,6 +529,25 @@ aside.onebox {
         cursor: pointer;
       }
     }
+  }
+}
+
+
+// Topic view
+.topic-avatar {
+  border-top: none;
+} 
+.topic-body {
+  border-top: none;
+}
+#topic-title .title-wrapper {
+  width: 100%;
+  justify-content: center;
+  padding: 2.5rem 0;
+  h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    max-width: 50rem;
   }
 }
 
