@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background: var(--primary-50);
+  background: var(--header_background);
 }
 
 h1,
@@ -34,14 +34,23 @@ h6 {
 .d-header {
   height: 3.5em;
   box-shadow: none;
-  background: var(--secondary);
-  border-bottom: 1px solid var(--primary-100);
+  background: var(--header_background);
+  // border-bottom: 1px solid var(--primary-100);
   .d-icon {
     color: var(--header_primary-medium);
   }
 }
 .header-buttons .btn-primary .d-icon {
   color: var(--secondary);
+}
+
+// Main container
+#main-outlet {
+  background: var(--secondary);
+  margin-top: 1rem;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 6px 20px #00000011;
 }
 
 // Buttons
@@ -274,6 +283,9 @@ tbody {
 
 // Category view //
 .category-list {
+  .with-topics {
+    margin-left: 0;
+  }
   .category-name {
     font-weight: normal;
     font-size: var(--font-up-1);
@@ -305,6 +317,18 @@ aside.onebox {
   .select-kit.combo-box .select-kit-header {
     border-color: var(--primary-low-mid);
     border-radius: .25em;
+  }
+}
+
+//Tag filter selected
+.select-kit.combo-box.tag-drop.has-selection .tag-drop-header {
+  border-color: var(--tertiary-high);
+  background: var(--tertiary-high);
+  .name {
+    color: white;
+  }
+  .caret-icon {
+    color: white;
   }
 }
 

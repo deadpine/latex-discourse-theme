@@ -11,6 +11,7 @@ div.tag-title-contents > h1:first-child {
 // Banner basic style
 div.tag-title-header {
   border-radius: 1rem;
+  background: var(--header_background);
   
   & > div.tag-title-contents {
     padding: 1em 0;
