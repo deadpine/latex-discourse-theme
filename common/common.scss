@@ -537,6 +537,13 @@ aside.onebox {
 .topic-avatar {
   border-top: none;
   padding: 2em 0 0 0;
+  padding-right: 1rem;
+  width: 2rem;
+  height: 2rem;
+  img.avatar {
+    width: 40px;
+    height: 40px;
+  }
 } 
 .topic-body {
   padding: 2em 0 0 0;
