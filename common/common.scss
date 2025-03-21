@@ -558,11 +558,8 @@ footer {
   font-weight: 400;
   font-size: var(--font-0);
   color: var(--primary-600);
-  .links { 
-    // padding: 2rem 0 0.5rem;
-    p { 
-      margin: 0;
-    }
+  .links p { 
+    margin: 0;
   }
 }
 
